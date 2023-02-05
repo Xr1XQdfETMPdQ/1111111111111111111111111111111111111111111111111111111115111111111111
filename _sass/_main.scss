@@ -3,6 +3,10 @@
   height: 100%;
 }
 
+::selection {
+  background: #6ba2dea1;
+}
+
 html {
   @extend %full_size;
 }
@@ -34,4 +38,5 @@ body {
 p {
   color: #fff;
   font-size: 8vw;
+  font-weight: bold;
 }
