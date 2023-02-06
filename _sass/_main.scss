@@ -13,10 +13,10 @@ html {
 
 @keyframes gradient {
   from, to {
-    background-position: 0% 0%;
+    background-position: 0%;
   }
   50% {
-    background-position: 100% 100%;
+    background-position: 100%;
   }
 }
 
@@ -29,16 +29,19 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Work Sans', sans-serif;
-  will-change: background-position;
+  
+  
   background: linear-gradient(315deg, #65005e, #223f5d 38%, #2a4097 68%, #ff1919);
-  background-size: 400% 400%;
+  background-size: 400%;
   background-attachment: fixed;
+  
+  will-change: background-position;
   animation: gradient 13s ease infinite;
 }
 
 p {
-  padding: 1.5vw;
   color: #fff;
+  padding: 1.5vw;
   font-size: 6vw;
   font-weight: bold;
   line-height: 1.5;
