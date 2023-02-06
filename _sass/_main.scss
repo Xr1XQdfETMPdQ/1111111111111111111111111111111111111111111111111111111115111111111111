@@ -24,16 +24,12 @@ body {
   @extend %full_size;
   
   margin: auto;
-  overflow: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Work Sans', sans-serif;
-  
-  
   background: linear-gradient(315deg, #65005e, #223f5d 38%, #2a4097 68%, #ff1919);
   background-size: 400%;
-  background-attachment: fixed;
   
   will-change: background-position;
   animation: gradient 13s ease infinite;
