@@ -1,4 +1,3 @@
-permalink: pretty
 sass: 
   style: compressed
 
@@ -9,6 +8,4 @@ readme_index:
   remove_originals: true
   
 plugins:
-- jekyll-sitemap
 - jekyll-redirect-from
-- jekyll-include-cache
