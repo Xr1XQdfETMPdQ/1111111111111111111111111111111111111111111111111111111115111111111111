@@ -42,56 +42,6 @@ p {
   font-size: 6vw;
   font-weight: bold;
   line-height: 1.5;
-  transition: color .25s;
-  position: relative;
-  vertical-align: middle;
-  box-sizing: border-box;
-  
-  &::before,
-  &::after {
-    box-sizing: inherit;
-    content: '';
-    position: absolute;
-    border: .35vw solid transparent;
-    border-radius: 0.5vw;
-    width: 0;
-    height: 0;
-  }
-  
-  &::before {
-    top: 0;
-    left: 0;
-  }
-  
-  &::after {
-    bottom: 0;
-    right: 0;
-  }
-  
-  &:hover {
-    &::before,
-    &::after {
-      @extend %full_size;
-    }
-    
-    &::before {
-      border-top-color: aqua;
-      border-right-color: aqua;
-      transition:
-        width .25s ease-out,
-        height .25s ease-out .25s;
-    }
-    
-    &::after {
-      border-bottom-color: aqua;
-      border-left-color: aqua;
-      transition:
-        border-bottom-color .5s,
-        border-left-color .5s,
-        width .25s ease-out .5s,
-        height .25s ease-out .75s;
-    }
-  }
 }
 
 sup {
