@@ -10,4 +10,5 @@ readme_index:
   
 plugins:
 - jekyll-sitemap
+- jekyll-redirect-from
 - jekyll-include-cache
