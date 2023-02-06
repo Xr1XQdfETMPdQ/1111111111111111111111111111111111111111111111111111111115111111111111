@@ -42,9 +42,15 @@ p {
   font-weight: bold;
   line-height: 1.5;
   transition: color .25s;
+  position: relative;
+  vertical-align: middle;
+  box-sizing: border-box;
   
   &::before,
   &::after {
+    box-sizing: inherit;
+    content: '';
+    position: absolute;
     border: 2px solid transparent;
     width: 0;
     height: 0;
