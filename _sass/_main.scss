@@ -37,6 +37,7 @@ body {
 }
 
 p {
+  padding: 1.5vw;
   color: #fff;
   font-size: 6vw;
   font-weight: bold;
@@ -51,7 +52,8 @@ p {
     box-sizing: inherit;
     content: '';
     position: absolute;
-    border: 2px solid transparent;
+    border: .35vw solid transparent;
+    border-radius: 0.5vw;
     width: 0;
     height: 0;
   }
@@ -67,9 +69,6 @@ p {
   }
   
   &:hover {
-    color: aqua;
-    cursor: none;
-    
     &::before,
     &::after {
       @extend %full_size;
@@ -87,7 +86,8 @@ p {
       border-bottom-color: aqua;
       border-left-color: aqua;
       transition:
-        border-color 0 ease-out .5s,
+        border-bottom-color .5s,
+        border-left-color .5s,
         width .25s ease-out .5s,
         height .25s ease-out .75s;
     }
