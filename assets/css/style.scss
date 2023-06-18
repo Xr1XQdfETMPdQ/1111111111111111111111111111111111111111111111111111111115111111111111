@@ -1,3 +1,6 @@
+---
+---
+
 html {
   height: 100%;
   user-select: none
@@ -13,4 +16,8 @@ body {
   overflow: hidden;
   
   background: #c1f3ff
+}
+
+img {
+  pointer-events: none
 }
